@@ -1,1 +1,26 @@
+.sports_app__information__opportunity {
+  width: 100%;
+  height: auto;
+}
+.sports_app__information__opportunity--recommendation {
+  font-family: 'lato-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
 
+.sports_app__information__opportunity--goal {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4F4F4F;
+}

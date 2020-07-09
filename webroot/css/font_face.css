@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'lato-Bold';
+  src: url(/webroot/fonts/Lato-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url(/webroot/fonts/Lato-Regular.woff) format('woff');
+}
