@@ -1,0 +1,28 @@
+.sports_app__accessibilities_navigation__links {
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0;
+  margin: 0;
+}
+.sports_app__accessibilities_navigation {
+margin-inline-start: auto;
+}
+.sports_app__accessibilities_navigation__links__downloaders {
+  list-style: none;
+}
+
+.sports_app__accessibilities_navigation__links__downloaders svg {
+   width: 100%;
+   height: 100%;
+}
+
+.sports_app__accessibilities_navigation__links__downloaders:first-of-type {
+  margin-right: 28.61px;
+}
+
+@media (min-width: 350px) {
+  .sports_app__accessibilities_navigation__links__downloaders:first-of-type {
+    margin-right: 35.9px;
+  }
+}
+
