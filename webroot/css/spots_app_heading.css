@@ -1,0 +1,20 @@
+ .sports_app__heading {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30PX;
+   margin-bottom: 50px;
+ }
+
+ .sports_app__heading__title {
+  margin: 0;
+ }
+
+ @media (min-width: 350px) {
+  .sports_app__heading {
+    align-items: flex-start;
+    margin-top: 35px;
+    margin-bottom: 133px;
+    margin-left: 20px;
+  }
+ }
