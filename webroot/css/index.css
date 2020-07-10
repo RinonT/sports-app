@@ -1,5 +1,5 @@
-@import "./sports_app_accessibility.css";
-@import "./sports_app_information.css";
+@import "./sports_app_navigation.css";
+@import "./sports_app_article.css";
 @import "./spots_app_heading.css";
 @import "./default.css";
 @import "./font_face.css";
