@@ -1,7 +1,9 @@
-.sports_app__information__opportunity {
-  width: 100%;
-  height: auto;
+
+/* Setting the space between the last paragraph and the two button-links*/
+.sports_app__information {
+  margin-bottom: 50px;
 }
+
 .sports_app__information__opportunity--recommendation {
   font-family: 'lato-bold';
   font-weight: bold;
@@ -10,6 +12,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-block-start: 0;
   letter-spacing: 0.03em;
   color: #333333;
 }
@@ -26,8 +29,16 @@
 
 @media (min-width: 480px) {
   .sports_app__information__opportunity {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: start;
   }
- }
+
+  .sports_app__information__opportunity--recommendation {
+    max-width: 546px;
+    max-height: 96px;
+  }
+
+  .sports_app__information__opportunity--goal {
+    max-width: 453px;
+    max-height: 86px;
+  }
+}
