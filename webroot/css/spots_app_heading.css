@@ -10,7 +10,7 @@
   margin: 0;
  }
 
- @media (min-width: 350px) {
+ @media (min-width: 480px) {
   .sports_app__heading {
     align-items: flex-start;
     margin-top: 35px;
