@@ -8,19 +8,17 @@ margin: 0;
   margin-right: 20px;
 }
 
-/* Setting the space between the two paragraph*/
-.sports_app__information__opportunity--recommendation {
-  margin-bottom: 33px;
-}
 
-/* Setting the space between the last paragraph and the two button-links*/
-.sports_app__information {
-  margin-bottom: 50px;
-}
 
-@media (min-width: 350px) {
+
+@media (min-width: 480px) {
   body {
-    margin-left: 162px;
+    margin-inline-start: 163px;
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 450px 450px;
   }
+
  }
 
