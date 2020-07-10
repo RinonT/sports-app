@@ -1,3 +1,6 @@
+:root {
+  --deskt
+}
 body {
 background: #F4F6F9;
 margin: 0;
@@ -16,9 +19,8 @@ margin: 0;
     margin-inline-start: 163px;
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: calc((480 + 163) * 1px);
     background-size: 450px 450px;
   }
-
- }
+}
 
