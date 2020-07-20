@@ -22,11 +22,11 @@ margin: 0;
 @media (min-width: 480px) {
   body {
     margin-inline-start: var(--body-margin-left);
-    background-image: url("../img/bg-header-medium.png");
+    background-image: url("../img/bg_header-modified.png");
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position-x: 75%;
-    background-position-y: 35%;
-
+    background-position-x: 90%;
+    background-position-y: 70%;
   }
 }
 
