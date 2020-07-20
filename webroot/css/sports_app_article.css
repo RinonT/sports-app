@@ -6,7 +6,6 @@
 
 .sports_app__information__opportunity--recommendation {
   font-family: 'lato-bold';
-  font-weight: bold;
   font-size: 30px;
   line-height: 40px;
   display: flex;
@@ -19,7 +18,6 @@
 
 .sports_app__information__opportunity--goal {
   font-family: 'lato-regular';
-  font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   text-align: center;
