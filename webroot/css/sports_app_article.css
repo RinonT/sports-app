@@ -1,9 +1,4 @@
 
-/* Setting the space between the last paragraph and the two button-links*/
-.sports_app__information {
-  margin-bottom: 50px;
-}
-
 .sports_app__information__opportunity--recommendation {
   font-family: 'lato-bold';
   font-size: 30px;
@@ -22,10 +17,11 @@
   line-height: 23px;
   text-align: center;
   color: #4F4F4F;
+  margin-bottom: 50px;
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 1040px) {
   .sports_app__information__opportunity {
     text-align: start;
   }
