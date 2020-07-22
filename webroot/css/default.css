@@ -1,14 +1,16 @@
 :root {
-  --desktop-min-width: 480px;
-/* For mobile */
+  --body-max-width: 1100px;
+  --article-max-width: 546px;
+  /* For mobile */
   --article-margin-left: 20px;
   --article-margin-right: 20px;
   /* for desktop*/
   --body-margin-left: 163px;
 }
+
 body {
-background: #F4F6F9;
-margin: 0;
+  background-color: #F4F6F9;
+  margin: 0;
 }
 
 .sports_app__information, .sports_app__accessibilities_navigation {
@@ -20,13 +22,16 @@ margin: 0;
 
 
 @media (min-width: 1040px) {
+
   body {
-    margin-inline-start: var(--body-margin-left);
+    max-width: var(--body-max-width);
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../img/bg_header-modified.png");
-    background-size: 60%;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position-x: 120%;
-    background-position-y: 60%;
+    background-position-x: var(--article-max-width);
+    background-position-y: 70%;
   }
 }
 
