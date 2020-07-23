@@ -29,12 +29,6 @@ body {
   margin-left: var(--article-margin-left);
   margin-right: var(--article-margin-right); }
 
-@media (min-width: 1040px) {
-  body {
-    max-width: var(--body-max-width);
-    margin-left: auto;
-    margin-right: auto; } }
-
 .sports_app__accessibilities_navigation__links {
   display: flex;
   flex-direction: row;
@@ -80,6 +74,10 @@ body {
   margin-bottom: 50px; }
 
 @media (min-width: 1040px) {
+  .sports_app__information {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
   .sports_app__information__opportunity {
     text-align: start; }
   .sports_app__information__opportunity--recommendation {
@@ -87,26 +85,19 @@ body {
   .sports_app__information__opportunity--goal {
     max-width: 453px; } }
 
-.sports_app__heading {
+.sports_app__heading__title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30PX;
   margin-bottom: 50px; }
-
-.sports_app__heading__title {
-  margin: 0; }
 
 @media (min-width: 1040px) {
   .sports_app__heading {
-    align-items: flex-start;
-    margin-top: 35px;
-    margin-bottom: 90px;
-    max-width: 1114px;
     background-image: url("../img/bg_header-modified.png");
-    background-size: 60%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position-x: calc(50vw - 11px);
     background-position-y: 70%; }
   .sports_app__heading__title {
-    margin-bottom: 163px; } }
+    margin-bottom: 183px;
+    align-items: flex-start; } }

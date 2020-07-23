@@ -1,23 +1,14 @@
- .sports_app__heading {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-top: 30PX;
-   margin-bottom: 50px;
- }
+@import "colors";
 
  .sports_app__heading__title {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
  }
 
  @media (min-width: 1040px) {
   .sports_app__heading {
-    align-items: flex-start;
-    margin-top: 35px;
-    margin-bottom: 90px;
-    max-width: 1114px;
-    margin-left: auto;
-    margin-right: 0;
     background-image: url("../img/bg_header-modified.png");
     background-size: 60%;
     background-repeat: no-repeat;
@@ -26,6 +17,7 @@
   }
 
   .sports_app__heading__title {
-    margin-bottom: 163px;
+    margin-bottom: 183px;
+    display: inline-block;
   }
 }

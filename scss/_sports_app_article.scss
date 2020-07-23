@@ -8,7 +8,7 @@
   text-align: center;
   margin-block-start: 0;
   letter-spacing: 0.03em;
-  color: #333333;
+  color: $heading-color;
 }
 
 .sports_app__information__opportunity--goal {
@@ -16,13 +16,18 @@
   font-size: 16px;
   line-height: 23px;
   text-align: center;
-  color: #4F4F4F;
+  color: $paragraph-color;
   margin-bottom: 50px;
 }
 
 
 @media (min-width: 1040px) {
-   
+  .sports_app__information {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
   .sports_app__information__opportunity {
     text-align: start;
   }
