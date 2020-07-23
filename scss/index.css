@@ -1,8 +1,0 @@
-/* Fonts */
-@import "./font_face.css";
-/* Defaault style */
-@import "./default.css";
-
-@import "./sports_app_navigation.css";
-@import "./sports_app_article.css";
-@import "./spots_app_heading.css";
