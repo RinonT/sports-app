@@ -10,10 +10,13 @@
  @media (min-width: 1040px) {
   .sports_app__heading {
     background-image: url("../img/bg_header-modified.png");
-    background-size: 60%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position-x: calc(50vw - 11px);
     background-position-y: 70%;
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
   }
 
   .sports_app__heading__title {

@@ -77,7 +77,8 @@ body {
   .sports_app__information {
     max-width: 1114px;
     margin-inline-start: auto;
-    margin-inline-end: auto; }
+    margin-inline-end: auto;
+   }
   .sports_app__information__opportunity {
     text-align: start; }
   .sports_app__information__opportunity--recommendation {
