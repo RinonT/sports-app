@@ -1,5 +1,5 @@
 @import "variables";
-.sports_app__information__opportunity--recommendation {
+.sports_app__contents__heading {
   font-family: 'lato-bold';
   font-size: 30px;
   line-height: 40px;
@@ -11,7 +11,7 @@
   color: $heading-color;
 }
 
-.sports_app__information__opportunity--goal {
+.sports_app__contents__paragraph {
   font-family: 'lato-regular';
   font-size: 16px;
   line-height: 23px;
@@ -21,7 +21,7 @@
 }
 
 @media (min-width: $faux-column-width) {
-  .sports_app__information {
+  .sports_app__contents {
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -29,15 +29,16 @@
     padding-bottom: 150px;
   }
 
-  .sports_app__information__opportunity {
+  .sports_app__contents__heading,
+  .sports_app__contents__paragraph {
     text-align: start;
   }
 
-  .sports_app__information__opportunity--recommendation {
+  .sports_app__contents__heading {
     max-width: 546px;
   }
 
-  .sports_app__information__opportunity--goal {
+  .sports_app__contents__paragraph {
     max-width: 453px;
   }
 }
