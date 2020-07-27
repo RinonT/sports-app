@@ -14,14 +14,11 @@
     background-repeat: no-repeat;
     background-position-x: calc(50vw - 11px);
     background-position-y: 70%;
-    max-width: 1114px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
   }
 
   .sports_app__heading__title {
     margin-top: auto;
     margin-bottom: 183px;
-    display: inline-block;
+    align-items: flex-start;
   }
 }
