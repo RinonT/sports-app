@@ -100,5 +100,6 @@ body {
     background-position-x: calc(50vw - 11px);
     background-position-y: 70%; }
   .sports_app__heading__title {
+    margin-top: auto;
     margin-bottom: 183px;
     align-items: flex-start; } }
