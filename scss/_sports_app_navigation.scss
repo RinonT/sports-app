@@ -1,14 +1,10 @@
+@import "variables";
 .sports_app__accessibilities_navigation__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  @include reset-list;
+  @include align-contents;
   padding-inline-start: 0;
-  margin: 0;
 }
 
-.sports_app__accessibilities_navigation__links__downloaders {
-  list-style: none;
-}
 
 .sports_app__accessibilities_navigation__links__downloaders img {
    max-width: 100%;
@@ -19,7 +15,7 @@
   margin-right: 28.61px;
 }
 
-@media (min-width: 1040px) {
+@media (min-width: $faux-column-width) {
   .sports_app__accessibilities_navigation__links {
      justify-content: flex-start;
   }

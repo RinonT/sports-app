@@ -1,0 +1,25 @@
+@import "colors";
+@import "variables";
+
+.sports_app__heading__title {
+  @include align-contents;
+}
+
+ @media (min-width: $faux-column-width) {
+  .sports_app__heading {
+    background-image: url("../img/bg_header-modified.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: calc(50vw - 80px);
+    background-position-y: -170px;
+  }
+
+  .sports_app__heading__title {
+    position: absolute;
+    left: calc(50% - 557px);
+    margin-top: auto;
+    margin-bottom: 183px;
+    padding-top: 50px;
+  }
+
+}

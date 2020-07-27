@@ -1,4 +1,4 @@
-
+@import "variables";
 .sports_app__information__opportunity--recommendation {
   font-family: 'lato-bold';
   font-size: 30px;
@@ -20,12 +20,13 @@
   margin-bottom: 50px;
 }
 
-
-@media (min-width: 1040px) {
+@media (min-width: $faux-column-width) {
   .sports_app__information {
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding-top: 250px;
+    padding-bottom: 150px;
   }
 
   .sports_app__information__opportunity {
@@ -40,3 +41,4 @@
     max-width: 453px;
   }
 }
+
