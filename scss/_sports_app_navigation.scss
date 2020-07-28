@@ -1,4 +1,6 @@
 @import "variables";
+@import "mixins";
+
 .sports_app__navigation__links {
   @include reset-list;
   @include align-contents;
@@ -6,12 +8,12 @@
 }
 
 
-.sports_app__navigation__links__downloaders img {
+.sports_app__navigation__links__downloader img {
    max-width: 100%;
    max-height: 100%;
 }
 
-.sports_app__navigation__links__downloaders:first-of-type {
+.sports_app__navigation__links__downloader:first-of-type {
   margin-right: 28.61px;
 }
 
@@ -19,7 +21,7 @@
   .sports_app__navigation__links {
      justify-content: flex-start;
   }
-  .sports_app__navigation__links__downloaders:first-of-type {
+  .sports_app__navigation__links__downloader:first-of-type {
     margin-right: 35.9px;
 
   }
