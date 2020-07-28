@@ -1,3 +1,4 @@
+@import "mixins";
 
 :root {
   --body-max-width: 1114px;
@@ -10,13 +11,18 @@
 }
 
 body {
-  background-color: #F4F6F9;
   margin: 0;
 }
 
 .sports_app__contents, .sports_app__navigation {
   margin-left: var(--article-margin-left);
   margin-right: var(--article-margin-right);
+}
+ul {
+@include reset-list;
+}
+a {
+  @include links-style;
 }
 
 

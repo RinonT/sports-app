@@ -22,6 +22,45 @@
   margin-bottom: 50px;
 }
 
+//From here is the styles for the user interface contents
+.sports_app__contents--user_interface {
+  & .contents--user__header {
+    margin-top: 55px;
+  }
+  & a{
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+  }
+
+  & .sports_app__contents__paragraph {
+    margin-bottom: 25px;
+  }
+
+  & .sports_app__heading__title__logolink {
+    text-transform: uppercase;
+  }
+}
+
+// Style for the features contents
+.sports_app__contents--features {
+  background: #FAFAFA;
+
+  & .sports_app__contents__heading {
+    padding-top: 42px;
+  }
+
+  & .sports_app__navigation__features {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+}
+
+
+
+
+
 @media (min-width: $faux-column-width) {
   .sports_app__contents {
     max-width: 1114px;

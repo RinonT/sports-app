@@ -1,0 +1,8 @@
+@import "mixins";
+
+.footer_navigation__links {
+    @include reset-list;
+}
+
+
+
