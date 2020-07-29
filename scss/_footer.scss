@@ -1,8 +1,33 @@
-@import "mixins";
+@import "variables";
+
+footer {
+  background-color: $footer-background-color;
+
+  & .sports_app__contents--footer-heading {
+    margin-top: 0;
+    padding-top: 41px;
+  }
+}
 
 .footer_navigation__links {
     @include reset-list;
+    & a {
+      color: $footer-text-color;
+    }
 }
+
+.footer_navigation__links--offers {
+  padding-top: 34px;
+  padding-bottom: 45px;
+}
+.footer_navigation__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
 
 
 

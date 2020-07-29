@@ -1,0 +1,32 @@
+@import "variables";
+.sports_app__navigation__image {
+  margin-top: 50px;
+}
+
+.sports_app__contents__paragraph--featured {
+  margin-top: 115px;
+  font-family: $font-lato-bold;
+  text-align: start;
+  font-size: 28px;
+  line-height: 37px;
+  color: $heading-color;
+}
+
+.sports_app__contents--features {
+  & .sports_app__navigation__links {
+    justify-content: space-between;
+  }
+
+  & .sports_app__navigation {
+    margin: 0;
+  }
+
+  .sports_app__navigation__links:last-of-type {
+    padding-top: 53px;
+    padding-bottom: 71px;
+    justify-content: center;
+  }
+}
+
+
+

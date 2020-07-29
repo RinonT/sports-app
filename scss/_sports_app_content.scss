@@ -1,5 +1,5 @@
 @import "variables";
-@import "mixins";
+
 
 .sports_app__contents__heading {
   font-family: 'lato-bold';
@@ -23,7 +23,11 @@
 }
 
 //From here is the styles for the user interface contents
-.sports_app__contents--user_interface {
+.sports_app__heading__title__logolink {
+  text-transform: uppercase;
+}
+
+.user_interface_section {
   & .contents--user__header {
     margin-top: 55px;
   }
@@ -37,13 +41,10 @@
     margin-bottom: 25px;
   }
 
-  & .sports_app__heading__title__logolink {
-    text-transform: uppercase;
-  }
 }
 
 // Style for the features contents
-.sports_app__contents--features {
+.features_section {
   background: #FAFAFA;
 
   & .sports_app__contents__heading {
@@ -66,10 +67,11 @@
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    padding-top: 250px;
-    padding-bottom: 150px;
   }
-
+.sports_app__heading .sports_app__contents:first-of-type {
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
   .sports_app__contents__heading,
   .sports_app__contents__paragraph {
     text-align: start;
