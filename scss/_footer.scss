@@ -16,6 +16,7 @@ footer {
     }
 }
 
+
 .footer_navigation__links--offers {
   padding-top: 34px;
   padding-bottom: 45px;
@@ -26,8 +27,18 @@ footer {
   justify-content: space-between;
 }
 
+.footer_navigation__links__meadia--tweeter {
+  background-image: url(../img/icon_twitter.svg);
+}
+
+.footer_navigation__links__meadia--facebook {
+  background-image: url(../img/icon_facebook.svg);
+}
 
 
+.footer_navigation__links__meadia--instagram {
+  background-image: url(../webroot/img/icon_instagram.svg);
+}
 
 
 

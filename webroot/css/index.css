@@ -58,12 +58,12 @@ span {
     background-position-x: 40vw;
     background-repeat: no-repeat;
     background-position-y: -200px; }
-  .sports_app__heading__title {
-    position: absolute;
-    left: calc(50% - 557px);
-    margin-top: auto;
-    margin-bottom: 183px;
-    padding-top: 50px; } }
+    .sports_app__heading .sports_app__heading__title {
+      position: absolute;
+      left: calc(50% - 557px);
+      margin-top: auto;
+      margin-bottom: 183px;
+      padding-top: 50px; } }
 
 .sports_app__contents__heading {
   font-family: 'lato-bold';
@@ -123,32 +123,83 @@ span {
   .sports_app__contents__paragraph {
     max-width: 453px; } }
 
-.user_interface--contents--background {
-  background-image: url(../webroot/img/);
-  width: auto;
-  height: 562px; }
+.user_interface_section {
+  background-image: url(../img/bg_friendly_user_interface_medium.png);
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+  background-position-x: 50%;
+  padding-bottom: 484px; }
+
+@media (min-width: 1114px) {
+  .user_interface_section {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 50%;
+    padding-top: 150px;
+    padding-bottom: 140px; }
+  .sports_app__heading__title {
+    justify-content: start; }
+  .sports_app__heading__title__logolink {
+    margin-inline-start: 117px; } }
 
 .sports_app__navigation__image {
   margin-top: 50px; }
 
 .sports_app__contents__paragraph--featured {
-  margin-top: 115px;
   font-family: "lato-bold";
   text-align: start;
   font-size: 28px;
   line-height: 37px;
   color: #333333; }
 
-.sports_app__contents--features .sports_app__navigation__links {
-  justify-content: space-between; }
-
 .sports_app__contents--features .sports_app__navigation {
   margin: 0; }
 
-.sports_app__contents--features .sports_app__navigation__links:last-of-type {
-  padding-top: 53px;
-  padding-bottom: 71px;
-  justify-content: center; }
+.sports_app__contents--features .sports_app__navigation__links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  .sports_app__contents--features .sports_app__navigation__links .sports_app__navigation__links {
+    padding-top: 53px;
+    padding-bottom: 71px;
+    justify-content: center; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(1) {
+  grid-column: 1/3;
+  grid-row: 1; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(2) {
+  grid-column: 3;
+  grid-row: 1;
+  margin-inline-start: -3rem; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(3) {
+  grid-column: 1/3;
+  grid-row: 2; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(4) {
+  grid-column: 2;
+  grid-row: 2;
+  margin-inline-start: 2rem; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(5) {
+  grid-column: 3/3;
+  grid-row: 2; }
+
+.sports_app__navigation__links--featured__partners:nth-of-type(6) {
+  grid-column: 2;
+  grid-row: 3; }
+
+@media (min-width: 1114px) {
+  .sports_app__contents--features .sports_app__navigation__links {
+    max-width: 100%; }
+  .sports_app__contents--features .sports_app__navigation__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .tailor-experience_section {
+    background-color: #00ADEE; } }
 
 .sports_app__navigation__links {
   margin: 0;
@@ -159,9 +210,6 @@ span {
   justify-content: center;
   padding-inline-start: 0; }
 
-.sports_app__heading .sports_app__navigation__links {
-  justify-content: space-between; }
-
 .sports_app__navigation__links__downloader img {
   max-width: 100%;
   max-height: 100%; }
@@ -171,7 +219,8 @@ span {
 
 @media (min-width: 1114px) {
   .sports_app__navigation__links {
-    justify-content: flex-start; }
+    max-width: 346px;
+    justify-content: center; }
   .sports_app__navigation__links__downloader:first-of-type {
     margin-right: 35.9px; }
   .sports_app__navigation {
@@ -198,3 +247,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+.footer_navigation__links__meadia--tweeter {
+  background-image: url(../img/icon_twitter.svg); }
+
+.footer_navigation__links__meadia--facebook {
+  background-image: url(../img/icon_facebook.svg); }
+
+.footer_navigation__links__meadia--instagram {
+  background-image: url(../webroot/img/icon_instagram.svg); }

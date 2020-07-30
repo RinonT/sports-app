@@ -18,14 +18,15 @@
     background-position-x: 40vw;
     background-repeat: no-repeat;
     background-position-y: -200px;
-  }
 
-  .sports_app__heading__title {
-    position: absolute;
-    left: calc(50% - 557px);
-    margin-top: auto;
-    margin-bottom: 183px;
-    padding-top: 50px;
+      & .sports_app__heading__title {
+        position: absolute;
+        left: calc(50% - 557px);
+        margin-top: auto;
+        margin-bottom: 183px;
+        padding-top: 50px;
+    }
+
   }
 
 }
