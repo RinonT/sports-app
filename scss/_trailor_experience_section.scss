@@ -1,0 +1,52 @@
+@import "variables";
+.tailor_experience_navigation_contents {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.tailor_experience__navigation__contents__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tailor_experience__navigation__contents__list svg{
+ fill: currentColor;
+}
+@media (min-width: $faux-column-width) {
+  .tailor-experience_section {
+    background-color: $footer-background-color;
+    padding-top: 76px;
+    padding-bottom: 67px;
+  }
+  .sports_app__contents--tailor-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tailor_experience_navigation_contents {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     column-gap: 87px;
+     row-gap: 49px;
+  }
+
+  .tailor_experience__navigation__contents__list {
+    align-items: flex-start;
+  }
+
+  .tailor_experience__navigation__contents__list,
+  .sports_app__contents__heading {
+    color: $footer-text-color;
+  }
+
+  .tailor_experience__navigation__contents__list p {
+    list-style-type:disc;
+    display:list-item;
+    list-style-position: inside;
+  }
+
+  .tailor_experience__navigation__contents__list svg{
+    fill:#FFFFFF;
+   }
+}
+

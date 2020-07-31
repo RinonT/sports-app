@@ -1,10 +1,11 @@
 @import "variables";
-@import "mixins";
+@import "variables";
 
-.sports_app__navigation__links {
+.sports_app__heading .sports_app__navigation__links {
   @include reset-list;
   @include align-contents;
   padding-inline-start: 0;
+  padding-bottom: 63px;
 }
 
 
@@ -19,7 +20,8 @@
 }
 
 @media (min-width: $faux-column-width) {
-  .sports_app__navigation__links {
+
+  .sports_app__heading .sports_app__navigation__links {
       max-width: 346px;
       justify-content:center;
   }
