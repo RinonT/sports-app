@@ -33,12 +33,12 @@
   .tailor_experience__navigation__contents__list {
     align-items: flex-start;
   }
-
-  .tailor_experience__navigation__contents__list,
-  .sports_app__contents__heading {
-    color: $footer-text-color;
+  .tailor-experience_section {
+    & .tailor_experience__navigation__contents__list,
+    & .sports_app__contents__heading {
+      color: $footer-text-color;
+    }
   }
-
   .tailor_experience__navigation__contents__list p {
     list-style-type:disc;
     display:list-item;

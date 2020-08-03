@@ -10,6 +10,9 @@
 .sports_app__heading {
   background-color: #F4F6F9;
 }
+.sports_app__heading__title img {
+  width: 186px;
+}
 
  @media (min-width: $faux-column-width) {
   .sports_app__heading {
@@ -28,5 +31,7 @@
     }
 
   }
-
+  .sports_app__heading__title img {
+    width: 92px;
+  }
 }
