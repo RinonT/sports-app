@@ -1,17 +1,41 @@
 /* Fonts */
 @font-face {
   font-family: 'lato-bold';
-  src: local(lato Bold), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'lato-regular';
-  src: local(lato Regular), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal; }
 
 /* Default style */
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
 :root {
   --body-max-width: 1114px;
   --article-max-width: 546px;
@@ -22,7 +46,8 @@
   --body-margin-left: 163px; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "lato-regular"; }
 
 .sports_app__contents, .sports_app__navigation {
   margin-left: var(--article-margin-left);
@@ -39,6 +64,18 @@ a {
 header span,
 section span {
   display: none; }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
 
 .sports_app__heading__title {
   display: flex;
@@ -70,6 +107,18 @@ section span {
       padding-top: 50px; }
   .sports_app__heading__title img {
     width: 92px; } }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
 
 .sports_app__contents__heading {
   font-family: 'lato-bold';
@@ -129,6 +178,18 @@ section span {
   .sports_app__contents__paragraph {
     max-width: 453px; } }
 
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
 .user_interface_section {
   background-image: url(../img/bg_friendly_user_interface_medium.png);
   background-repeat: no-repeat;
@@ -159,6 +220,18 @@ section span {
   .sports_app__navigation__links__info {
     justify-content: start; } }
 
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
 .tailor_experience_navigation_contents {
   display: flex;
   flex-direction: column;
@@ -167,10 +240,14 @@ section span {
 .tailor_experience__navigation__contents__list {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .tailor_experience__navigation__contents__list svg {
-  fill: currentColor; }
+  fill: #084482; }
+
+.tailor_experience__navigation__contents__list p {
+  color: #4F4F4F; }
 
 @media (min-width: 1114px) {
   .tailor-experience_section {
@@ -199,9 +276,22 @@ section span {
     list-style-type: disc;
     display: list-item;
     list-style-position: inside;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    color: #FFFFFF; }
   .tailor_experience__navigation__contents__list svg {
     fill: #FFFFFF; } }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
 
 .features_section {
   padding-top: 57px;
@@ -213,10 +303,6 @@ section span {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; }
-    .features_section .sports_app__navigation__links .sports_app__navigation__links {
-      padding-top: 53px;
-      padding-bottom: 71px;
-      justify-content: center; }
 
 .sports_app__navigation__image {
   margin-top: 50px; }
@@ -238,30 +324,62 @@ section span {
   flex-basis: 50%; }
 
 .sports_app__navigation__links--featured__partners:nth-of-type(3) {
-  flex-basis: 30%; }
+  flex-basis: 35%; }
 
 .sports_app__navigation__links--featured__partners:nth-of-type(4) {
-  flex-basis: 30%; }
-
-.sports_app__navigation__links--featured__partners:nth-of-type(5) {
-  flex-wrap: 40%; }
+  flex-basis: 35%; }
 
 .sports_app__navigation__links--featured__partners:nth-of-type(6) {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex-basis: 100%; }
 
 @media (min-width: 1114px) {
   .features_section .sports_app__navigation__links {
-    max-width: 100%; }
-  .features_section .sports_app__navigation__links {
-    display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start; }
   .sports_app__contents__paragraph--featured {
     margin-top: 0;
-    transform: translatex(75%); } }
+    transform: translatex(75%); }
+  .sports_app__navigation__links--featured__partners:nth-of-type(1) {
+    flex-basis: auto; }
+  .sports_app__navigation__links--featured__partners:nth-of-type(2) {
+    flex-basis: auto; }
+  .sports_app__navigation__links--featured__partners:nth-of-type(3) {
+    flex-basis: auto; }
+  .sports_app__navigation__links--featured__partners:nth-of-type(4) {
+    flex-basis: auto; }
+  .sports_app__navigation__links--featured__partners:nth-of-type(5) {
+    flex-basis: auto; }
+  .sports_app__navigation__links--featured__partners:nth-of-type(6) {
+    flex-basis: auto; } }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
 
 .sports_app__heading .sports_app__navigation__links {
   margin: 0;
@@ -288,6 +406,18 @@ section span {
     margin-right: 35.9px; }
   .sports_app__navigation {
     margin-inline-start: 0; } }
+
+@font-face {
+  font-family: 'lato-bold';
+  src: local("lato Bold"), url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'lato-regular';
+  src: local("lato Regular"), url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal; }
 
 footer {
   background-color: #00ADEE; }

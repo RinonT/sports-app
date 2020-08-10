@@ -1,4 +1,5 @@
-@import "mixins";
+@import "font_face";
+@import "variables";
 
 :root {
   --body-max-width: 1114px;
@@ -12,6 +13,7 @@
 
 body {
   margin: 0;
+  font-family: $font-lato-regular;
 }
 
 .sports_app__contents, .sports_app__navigation {

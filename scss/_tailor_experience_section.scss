@@ -8,9 +8,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
-.tailor_experience__navigation__contents__list svg{
- fill: currentColor;
+.tailor_experience__navigation__contents__list {
+  & svg {
+    fill: #084482;
+  }
+  &  p {
+  color: $paragraph-color;
+  }
 }
 @media (min-width: $faux-column-width) {
   .tailor-experience_section {
@@ -48,10 +54,11 @@
     display:list-item;
     list-style-position: inside;
     margin-bottom: 0;
+    color: $footer-text-color;
   }
 
   .tailor_experience__navigation__contents__list svg{
-    fill:#FFFFFF;
+    fill:$footer-text-color;
    }
 }
 
