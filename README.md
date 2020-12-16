@@ -1,77 +1,59 @@
 # Front-end assessment
 
 A mockup-to-website example to be used as an assessment
+<h1 align="center">Sports App</h1>
 
-## Getting started
+<div align="center">
+  <h3>
+    <a href="https://sports-app-rinon.netlify.app/"
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/ganamavo/front-end-assessment">
+      Solution
+    </a>
+  </h3>
+</div>
 
-- Fork this repo to your own github account
-- Clone your github account version of the repo (e.g. `STUDENT_NAME/front-end-assessment` ) to your computer.
-- Work in your `main` branch
+<!-- TABLE OF CONTENTS -->
 
-## The design
+## Table of Contents
 
-I'd recommend downloading the Figma App if you haven't already.
+-   [Overview](#overview)
+    -   [Built With](#built-with)
+-   [Features](#features)
+-   [How to use](#how-to-use)
+-   [Contact](#contact)
+-   [Acknowledgements](#acknowledgements)
 
-### On Figma.com
+<!-- OVERVIEW -->
 
-You can [find the mockup on Figma](https://www.figma.com/file/SC3HqLUP9hGBfn93mIwxkS/Sports-App-homepage-Responsive-Revised)
+## Overview
 
-### As a `.fig` file
+![screenshot](./work-screenshot.png)
 
-You can [find the `.fig` file in the source folder of this repo](source-materials/sports-app.fig).
+1.  My demo can be seen by following this [link](https://sports-app-rinon.netlify.app/)
+1.  Some experience:
+  - Building an existing website called sports App. This is actually the homepage without any menu in the header. Working on multiple backgrounds and adjusting their sizes to the container is the most important skill that I get out of this project.
 
-Open the `.fig` in the Figma App, or import it/drag it into the Figma.com workspace in your browser.
+1.   What I have learned and improved:
+  - Learning how to use fonts faces, working on multiple backgrounds and adjusting their sizes to their container.
 
-## Resources
+1. Wisdom to share:
+The best way to improve is to be motivated and always confident to face challenges no matter how difficult it will be.
 
-I've extracted all the images in multiple formats, and placed them in the `source-material/imagery` folder.
+### Built With
 
-So too with downloading the fonts. Have a look in the `source-material/fonts` folder.
+- [Sass](http://www.mailplanet.com/@sass.com)
+- [HTML] (https://html.com/)
 
-## Development
+## How To Use
 
-The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node-sass](https://docs.npmjs.com/cli/v6/commands/npm-install)) installed on your computer. From your command line:
 
-## Requirements
-
-Your work on the site header, and masthead will be the primary focus of this assessment.
-i.e. you must first deliver these two elements, so that they can be marked.
-
-The rest of the components of the site, we'll do later as an exercise.
-
-### Marking
-
-Your work will be marked on the following criteria:
-
-- Git
-  - Commits, commit messages, and their frequency (how often you commit)
-- Code
-  - All code should be:
-    - well-formatted and clean
-    - easy to understand
-    - self-documenting
-    - using comments when needed
-    - named well (e.g. class names should be relevant)
-  - HTML
-    - Use of HTML elements
-    - Accessible
-  - CSS
-    - Well-structured and easy to find relevant files
-    - Good / consistent naming conventions (methodologies)
-    - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
-- Results
-  - Should work in both Firefox and Chrome
-  - Responsive, supporting mobile and desktop devices
-  - Be accessible (You should use accessibility techniques we've covered in our courses)
-  - Accurate as possible (Your end product should look as similar to the designs as possible
-
-### Bonus marks
-
-Bonus points will be awarded for code that uses:
-
-- a new technique you had to research while doing this assessment
-- elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality or delight)
+```bash
+# Clone this repository
+$ git clone https://github.com/ganamavo/front-end-assessment
 
 ### Install
  - `npm i`
