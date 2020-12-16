@@ -8,26 +8,31 @@
   padding-bottom: 50px;
 }
 .sports_app__heading {
-  background-color: #F4F6F9;
+  background-color: #f4f6f9;
 }
 .sports_app__heading__title img {
   width: 186px;
 }
 
- @media (min-width: $faux-column-width) {
+@media (min-width: $faux-column-width) {
   .sports_app__heading {
-    background-color: #F4F6F9;
+    background-color: #f4f6f9;
     background-image: url(../img/bg_header.png);
     background-position-x: 40vw;
     background-repeat: no-repeat;
     background-position-y: -200px;
 
-      & .sports_app__heading__title {
-        position: absolute;
-        left: calc(50% - 557px);
-        margin-top: auto;
-        margin-bottom: 183px;
-        padding-top: 50px;
+    & .sports_app__heading__title {
+      position: absolute;
+      left: calc(50% - 557px);
+      margin-top: auto;
+      margin-bottom: 183px;
+      padding-top: 50px;
+    }
+
+    & .sports_app__contents__paragraph {
+      font-size: 18px;
+      line-height: 26px;
     }
 
   }

@@ -47,9 +47,12 @@
 
 body {
   margin: 0;
-  font-family: "lato-regular"; }
+  font-family: "lato-regular";
+  font-size: 16px;
+  line-height: 23px; }
 
-.sports_app__contents, .sports_app__navigation {
+.sports_app__contents,
+.sports_app__navigation {
   margin-left: var(--article-margin-left);
   margin-right: var(--article-margin-right); }
 
@@ -87,14 +90,14 @@ section span {
   padding-bottom: 50px; }
 
 .sports_app__heading {
-  background-color: #F4F6F9; }
+  background-color: #f4f6f9; }
 
 .sports_app__heading__title img {
   width: 186px; }
 
 @media (min-width: 1114px) {
   .sports_app__heading {
-    background-color: #F4F6F9;
+    background-color: #f4f6f9;
     background-image: url(../img/bg_header.png);
     background-position-x: 40vw;
     background-repeat: no-repeat;
@@ -105,6 +108,9 @@ section span {
       margin-top: auto;
       margin-bottom: 183px;
       padding-top: 50px; }
+    .sports_app__heading .sports_app__contents__paragraph {
+      font-size: 18px;
+      line-height: 26px; }
   .sports_app__heading__title img {
     width: 92px; } }
 
@@ -244,6 +250,7 @@ section span {
   text-align: center; }
 
 .tailor_experience__navigation__contents__list svg {
+  width: 37px;
   fill: #084482; }
 
 .tailor_experience__navigation__contents__list p {
@@ -254,9 +261,9 @@ section span {
     background-color: #00ADEE;
     background-image: url(../img/background_blue_rectangles.svg);
     background-repeat: no-repeat;
-    background-position-y: -16px;
-    background-position-x: -72px;
-    padding-top: 76px;
+    background-position-y: -5px;
+    background-position-x: -41px;
+    padding-top: 71px;
     padding-bottom: 67px; }
   .sports_app__contents--tailor-experience {
     display: flex;
@@ -266,17 +273,25 @@ section span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 87px;
-    row-gap: 49px; }
+    row-gap: 40px; }
   .tailor_experience__navigation__contents__list {
+    max-width: 304px;
+    text-align: unset;
     align-items: flex-start; }
   .tailor-experience_section .tailor_experience__navigation__contents__list,
   .tailor-experience_section .sports_app__contents__heading {
     color: #FFFFFF; }
+  .tailor-experience_section .sports_app__contents__heading {
+    font-size: 27px;
+    line-height: 36px;
+    padding-bottom: 36px; }
   .tailor_experience__navigation__contents__list p {
     list-style-type: disc;
     display: list-item;
     list-style-position: inside;
+    margin-top: 2px;
     margin-bottom: 0;
+    line-height: 24px;
     color: #FFFFFF; }
   .tailor_experience__navigation__contents__list svg {
     fill: #FFFFFF; } }

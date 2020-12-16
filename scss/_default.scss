@@ -14,14 +14,17 @@
 body {
   margin: 0;
   font-family: $font-lato-regular;
+  font-size: 16px;
+  line-height: 23px;
 }
 
-.sports_app__contents, .sports_app__navigation {
+.sports_app__contents,
+.sports_app__navigation {
   margin-left: var(--article-margin-left);
   margin-right: var(--article-margin-right);
 }
 ul {
-@include reset-list;
+  @include reset-list;
 }
 a {
   @include links-style;
@@ -29,10 +32,5 @@ a {
 
 header span,
 section span {
- display: none;
+  display: none;
 }
-
-
-
-
-
